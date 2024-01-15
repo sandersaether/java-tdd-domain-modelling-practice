@@ -42,6 +42,6 @@ Thinking about the Poker Challenge implement a deck of cards (52 cards - 4 suits
 
 6. I should be able to view the top card of the deck.
 
-7. I should be able to cut the cards and see a card from an arbitrary point in the deck
+7. I should be able to cut the cards and see a card from an arbitrary point in the deck.
 ```
 
