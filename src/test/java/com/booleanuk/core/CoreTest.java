@@ -20,4 +20,16 @@ public class CoreTest {
 
     }
 
+    @Test
+    public void testToGetRandomStudents(){
+        RandomStudent randomStudent = new RandomStudent();
+        randomStudent.random.setSeed(120);
+
+        Assertions.assertEquals("Sander Sather", randomStudent.getRandomStudent());
+        Assertions.assertEquals("Lars Kvifte", randomStudent.getRandomStudent());
+        Assertions.assertEquals("Lars Kvifte", randomStudent.getRandomStudent());
+        Assertions.assertEquals("Markus Moe", randomStudent.getRandomStudent());
+
+    }
+
 }
